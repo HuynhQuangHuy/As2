@@ -40,7 +40,7 @@ echo '<p>Students information:</p>';
 ?>
 <style>
 table {
-  width:80%;
+  width:60%;
 }
 table, th, td {
   border: 1px solid black;
