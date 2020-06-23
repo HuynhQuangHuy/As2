@@ -53,7 +53,7 @@ th, td {
 
 #t01 th {
   background-color: #FFCC66;
-  color: white;
+  color: black;
 }
 </style>
 <div id="container">
@@ -61,7 +61,7 @@ th, td {
     <thead>
       <tr>
         <th>ProductID</th>
-        <th>PRoductName</th>
+        <th>ProductName</th>
         <th>Price</th>
         <th>Quantity</th>
       </tr>
