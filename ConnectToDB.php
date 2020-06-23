@@ -29,7 +29,7 @@ if (empty(getenv("DATABASE_URL"))){
    ));
 }  
 
-$sql = "SELECT * FROM student ORDER BY stuid";
+$sql = "SELECT * FROM product";
 $stmt = $pdo->prepare($sql);
 //Thiết lập kiểu dữ liệu trả về
 $stmt->setFetchMode(PDO::FETCH_ASSOC);
@@ -42,10 +42,10 @@ echo '<p>Students information:</p>';
 <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Student ID</th>
-        <th>Name</th>
-        <th>email</th>
-        <th>Class</th>
+        <th>ProductID</th>
+        <th>PRoductName</th>
+        <th>Price</th>
+        <th>Quantity</th>
       </tr>
     </thead>
     <tbody>
@@ -56,10 +56,10 @@ echo '<p>Students information:</p>';
       ?>
    
       <tr>
-        <td scope="row"><?php echo $row['stuid'] ?></td>
-        <td><?php echo $row['fname'] ?></td>
-        <td><?php echo $row['email'] ?></td>
-        <td><?php echo $row['classname'] ?></td>
+        <td scope="row"><?php echo $row['ProductID'] ?></td>
+        <td><?php echo $row['ProductName'] ?></td>
+        <td><?php echo $row['Price'] ?></td>
+        <td><?php echo $row['Quantity'] ?></td>
         
       </tr>
      
