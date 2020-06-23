@@ -38,6 +38,16 @@ $resultSet = $stmt->fetchAll();
 echo '<p>Students information:</p>';
 
 ?>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+</style>
 <div id="container">
 <table class="table table-bordered table-condensed">
     <thead>
