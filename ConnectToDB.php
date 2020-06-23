@@ -40,7 +40,7 @@ echo '<p>Students information:</p>';
 ?>
 <style>
 table {
-  width:100%;
+  width:80%;
 }
 table, th, td {
   border: 1px solid black;
@@ -50,13 +50,14 @@ th, td {
   padding: 15px;
   text-align: left;
 }
+
 #t01 th {
-  background-color: orange;
+  background-color: #FFCC66;
   color: white;
 }
 </style>
 <div id="container">
-<table class="table table-bordered table-condensed">
+<table id="t01" class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>ProductID</th>
