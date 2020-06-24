@@ -30,7 +30,7 @@
           <li><img src="images/3.png" alt=""></li>
           <li class="last"><img src="images/4.jpg" alt=""></li>
         </ul>
-        <a href="shop.html" class="button">shop here!</a> </div>
+        <a href="shop.php" class="button">shop here!</a> </div>
     </div>
     <!-- /#contents -->
     <div id="footer">
