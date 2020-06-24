@@ -35,7 +35,7 @@
     <!-- /#contents -->
     <div id="footer">
       <div id="description">
-        <div> <a href="index.html" class="logo"></a> <span>ATN &copy; 2020 <a href="#">ATN company</a> All rights reserved | Best choice <a target="_blank" href="http://www.freewebsitetemplates.com/"></a></span> </div>
+        <div> <a href="index.php" class="logo"></a> <span>ATN &copy; 2020 <a href="#">ATN company</a> All rights reserved | Best choice <a target="_blank" href="http://www.freewebsitetemplates.com/"></a></span> </div>
         <p> ATN is a Vietnamese company which is selling toys to teenagers in many provinces all over Vietnam. The company has the revenue over 500.000 dollars/year. </p>
       </div>
       <div class="navigation"> <a href="index.php">Home</a>| <a href="about.php">About</a>| <a href="blog.php">Blog</a>| <a href="shop.php">Shop</a>| <a href="contact-us.php">Contact Us</a> </div>
