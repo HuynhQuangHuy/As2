@@ -23,7 +23,7 @@
       <div id="shop">
         <ul class="items">
           <li> <span><img src="images/5.png" alt=""></span> <span class="price">$18.00</span> Sellcouth One<br>
-            <a href="#" class="buy">Buy</a> </li>
+              <a href="Product1.php" class="buy">Buy</a> </li>
           <li> <span><img src="images/6.png" alt=""></span> <span class="price">$18.00</span> Sellcouth One<br>
             <a href="#" class="buy">Buy</a> </li>
           <li> <span><img src="images/7.png" alt=""></span> <span class="price">$18.00</span> Sellcouth One<br>
