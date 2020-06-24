@@ -3,7 +3,7 @@
 <head>
 <title>Sellcouth | Shop</title>
 <meta charset="utf-8">
-<link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8">
+<link rel="stylesheet" href="css1/style.css" type="text/css" charset="utf-8">
 </head>
 <body>
 <div id="background">
