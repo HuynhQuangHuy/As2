@@ -26,15 +26,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //Meta tag Keywords -->
 
 	<!-- Custom-Files -->
-	<link href="css1/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 	<!-- Bootstrap css -->
-	<link href="css1/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 	<!-- Main css -->
 	<link rel="stylesheet" href="css1/fontawesome-all.css">
 	<!-- Font-Awesome-Icons-CSS -->
-	<link href="css1/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
 	<!-- pop-up-box -->
-	<link href="css1/menu.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/menu.css" rel="stylesheet" type="text/css" media="all" />
 	<!-- menu style -->
 	<!-- //Custom-Files -->
 
