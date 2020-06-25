@@ -14,11 +14,11 @@ list-style: none;
 <h2>Enter data into student table</h2>
 <ul>
     <form name="InsertData" action="InsertData.php" method="POST" >
-<li>ProductID:</li><li><input type="text" name="ProductID" /></li>
-<li>ProductName:</li><li><input type="text" name="ProductName" /></li>
-<li>Price:</li><li><input type="text" name="Price" /></li>
-<li>Quantity:</li><li><input type="text" name="Quantity" /></li>
-<li><input type="submit" /></li>
+        <li>CustomerID:</li><li><input type="text" name="CustomerID"  required=/></li>
+        <li>CustomerName:</li><li><input type="text" name="CustomerName" /></li>
+        <li>Phone:</li><li><input type="text" name="PhoneNumber" /></li>
+        <li>Address:</li><li><input type="text" name="Address" /></li>
+        <li><input type="submit" value="Đăng kí" /></li>
 </form>
 </ul>
 
@@ -53,17 +53,17 @@ if($pdo === false){
 //$stmt->bindParam(':class', 'GCD018');
 //$stmt->execute();
 //$sql = "INSERT INTO student(stuid, fname, email, classname) VALUES('SV02', 'Hong Thanh','thanhh@fpt.edu.vn','GCD018')";
-$sql = "INSERT INTO product(ProductID, ProductName, Price, Quantity)"
-        . " VALUES('$_POST[ProductID]','$_POST[ProductName]','$_POST[Price]','$_POST[Quantity]')";
+$sql = "INSERT INTO customer(CustomerID, CustomerName, PhoneNumber, Address)"
+        . " VALUES('$_POST[CustomerID]','$_POST[CustomerName]','$_POST[PhoneNumber]','$_POST[Address]')";
 $stmt = $pdo->prepare($sql);
 //$stmt->execute();
- if (is_null($_POST[ProductID])) {
-   echo "ProductID must be not null";
+ if (is_null($_POST[CustomerID])) {
+   echo "Customer ID Không được thiếu.";
  }
  else
  {
     if($stmt->execute() == TRUE){
-        echo "Record inserted successfully.";
+        echo "Đăng kí thành công. Vui lòng dùng customerid khi thanh toán.";
     } else {
         echo "Error inserting record: ";
     }

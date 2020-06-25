@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>ATN</title>
+<title>Huy ATN Store</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="css1/style.css" type="text/css" charset="utf-8">
 </head>
@@ -13,7 +13,7 @@
       <ul id="navigation">
         <li class="selected"><a href="index.php">Home</a></li>
         <li><a href="ConnectToDB.php">Connect</a></li>
-        <li><a href="InserData.php">InsertData</a></li>
+        <li><a href="InserCustomer.php" target="_blank">Đăng kí</a></li>
         <li><a href="shop.php">Shop</a></li>
         <li><a href="contact-us.php">Contact Us</a></li>
       </ul>
