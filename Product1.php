@@ -1,9 +1,14 @@
-
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
 <html lang="zxx">
 
 <head>
-	<title>Electro Store Ecommerce Category Bootstrap Responsive Web Template | Single Product 1 :: w3layouts</title>
+	<title>ATN shop</title>
 	<!-- Meta tag Keywords -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8" />
@@ -63,7 +68,7 @@
 								<i class="fas fa-truck mr-2"></i>Track Order</a>
 						</li>
 						<li class="text-center border-right text-white">
-							<i class="fas fa-phone mr-2"></i> 001 234 5678
+							<i class="fas fa-phone mr-2"></i> 0999099909
 						</li>
 						<li class="text-center border-right text-white">
 							<a href="#" data-toggle="modal" data-target="#exampleModal" class="text-white">
@@ -550,8 +555,8 @@
 				<!-- logo -->
 				<div class="col-md-3 logo_agile">
 					<h1 class="text-center">
-						<a href="index.html" class="font-weight-bold font-italic">
-							<img src="images/logo2.png" alt=" " class="img-fluid">Electro Store
+						<a href="index.php" class="font-weight-bold font-italic">
+							<img src="images/bg-header.jpg" alt=" " class="img-fluid">Electro Store
 						</a>
 					</h1>
 				</div>
@@ -594,16 +599,16 @@
 				<div class="agileits-navi_search">
 					<form action="#" method="post">
 						<select id="agileinfo-nav_search" name="agileinfo_search" class="border" required="">
-							<option value="">All Categories</option>
-							<option value="Televisions">Televisions</option>
-							<option value="Headphones">Headphones</option>
-							<option value="Computers">Computers</option>
-							<option value="Appliances">Appliances</option>
-							<option value="Mobiles">Mobiles</option>
-							<option value="Fruits &amp; Vegetables">Tv &amp; Video</option>
-							<option value="iPad & Tablets">iPad & Tablets</option>
+							<option value="">Lego</option>
+							<option value="Televisions">Ironman</option>
+							<option value="Headphones">Batman</option>
+							<option value="Computers">Superman</option>
+							<option value="Appliances">Aquaman</option>
+							<option value="Mobiles">Toy story</option>
+							<option value="Fruits &amp; Vegetables">PS4 &amp; Video</option>
+							<option value="iPad & Tablets">M&M & Gaming</option>
 							<option value="Cameras & Camcorders">Cameras & Camcorders</option>
-							<option value="Home Audio & Theater">Home Audio & Theater</option>
+							<option value="Home Audio & Theater">Home & Legos</option>
 						</select>
 					</form>
 				</div>
@@ -614,43 +619,43 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto text-center mr-xl-5">
 						<li class="nav-item mr-lg-2 mb-lg-0 mb-2">
-							<a class="nav-link" href="index.html">Home
+							<a class="nav-link" href="index.php">Home
 								<span class="sr-only">(current)</span>
 							</a>
 						</li>
 						<li class="nav-item dropdown mr-lg-2 mb-lg-0 mb-2">
 							<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Electronics
+								Lego Toys
 							</a>
 							<div class="dropdown-menu">
 								<div class="agile_inner_drop_nav_info p-4">
-									<h5 class="mb-3">Mobiles, Computers</h5>
+									<h5 class="mb-3">Lego</h5>
 									<div class="row">
 										<div class="col-sm-6 multi-gd-img">
 											<ul class="multi-column-dropdown">
 												<li>
-													<a href="product.html">All Mobile Phones</a>
+													<a href="product.html">War</a>
 												</li>
 												<li>
-													<a href="product.html">All Mobile Accessories</a>
+													<a href="product.html">Toys</a>
 												</li>
 												<li>
-													<a href="product.html">Cases & Covers</a>
+													<a href="product.html">Toy story</a>
 												</li>
 												<li>
-													<a href="product.html">Screen Protectors</a>
+													<a href="product.html">Star war</a>
 												</li>
 												<li>
-													<a href="product.html">Power Banks</a>
+													<a href="product.html">Gao</a>
 												</li>
 												<li>
-													<a href="product.html">All Certified Refurbished</a>
+													<a href="product.html">Disney pizax</a>
 												</li>
 												<li>
-													<a href="product.html">Tablets</a>
+													<a href="product.html">Game</a>
 												</li>
 												<li>
-													<a href="product.html">Wearable Devices</a>
+													<a href="product.html">Moto</a>
 												</li>
 												<li>
 													<a href="product.html">Smart Home</a>
@@ -660,25 +665,25 @@
 										<div class="col-sm-6 multi-gd-img">
 											<ul class="multi-column-dropdown">
 												<li>
-													<a href="product.html">Laptops</a>
+													<a href="product.html">Classic</a>
 												</li>
 												<li>
-													<a href="product.html">Drives & Storage</a>
+													<a href="product.html">Lego racing</a>
 												</li>
 												<li>
-													<a href="product.html">Printers & Ink</a>
+													<a href="product.html">Pink Lego</a>
 												</li>
 												<li>
-													<a href="product.html">Networking Devices</a>
+													<a href="product.html">Lego figures</a>
 												</li>
 												<li>
-													<a href="product.html">Computer Accessories</a>
+													<a href="product.html">Lego minifigures</a>
 												</li>
 												<li>
 													<a href="product.html">Game Zone</a>
 												</li>
 												<li>
-													<a href="product.html">Software</a>
+													<a href="product.html">Gaby baby</a>
 												</li>
 											</ul>
 										</div>
@@ -687,81 +692,13 @@
 							</div>
 						</li>
 						<li class="nav-item dropdown mr-lg-2 mb-lg-0 mb-2">
-							<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Appliances
+							<a class="nav-link dropdown-toggle" href="shop.php" role="button"  aria-haspopup="true" aria-expanded="false">
+								Shop
 							</a>
-							<div class="dropdown-menu">
-								<div class="agile_inner_drop_nav_info p-4">
-									<h5 class="mb-3">TV, Appliances, Electronics</h5>
-									<div class="row">
-										<div class="col-sm-6 multi-gd-img">
-											<ul class="multi-column-dropdown">
-												<li>
-													<a href="product2.html">Televisions</a>
-												</li>
-												<li>
-													<a href="product2.html">Home Entertainment Systems</a>
-												</li>
-												<li>
-													<a href="product2.html">Headphones</a>
-												</li>
-												<li>
-													<a href="product2.html">Speakers</a>
-												</li>
-												<li>
-													<a href="product2.html">MP3, Media Players & Accessories</a>
-												</li>
-												<li>
-													<a href="product2.html">Audio & Video Accessories</a>
-												</li>
-												<li>
-													<a href="product2.html">Cameras</a>
-												</li>
-												<li>
-													<a href="product2.html">DSLR Cameras</a>
-												</li>
-												<li>
-													<a href="product2.html">Camera Accessories</a>
-												</li>
-											</ul>
-										</div>
-										<div class="col-sm-6 multi-gd-img">
-											<ul class="multi-column-dropdown">
-												<li>
-													<a href="product2.html">Musical Instruments</a>
-												</li>
-												<li>
-													<a href="product2.html">Gaming Consoles</a>
-												</li>
-												<li>
-													<a href="product2.html">All Electronics</a>
-												</li>
-												<li>
-													<a href="product2.html">Air Conditioners</a>
-												</li>
-												<li>
-													<a href="product2.html">Refrigerators</a>
-												</li>
-												<li>
-													<a href="product2.html">Washing Machines</a>
-												</li>
-												<li>
-													<a href="product2.html">Kitchen & Home Appliances</a>
-												</li>
-												<li>
-													<a href="product2.html">Heating & Cooling Appliances</a>
-												</li>
-												<li>
-													<a href="product2.html">All Appliances</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
+							
 						</li>
 						<li class="nav-item mr-lg-2 mb-lg-0 mb-2">
-							<a class="nav-link" href="about.html">About Us</a>
+							<a class="nav-link" href="about.php">About Us</a>
 						</li>
 						<li class="nav-item mr-lg-2 mb-lg-0 mb-2">
 							<a class="nav-link" href="product.html">New Arrivals</a>
@@ -774,15 +711,15 @@
 								<a class="dropdown-item" href="product.html">Product 1</a>
 								<a class="dropdown-item" href="product2.html">Product 2</a>
 								<div class="dropdown-divider"></div>
-								<a class="dropdown-item active" href="single.html">Single Product 1</a>
-								<a class="dropdown-item" href="single2.html">Single Product 2</a>
+								<a class="dropdown-item active" href="single.html">Toy1</a>
+								<a class="dropdown-item" href="single2.html">Toy2</a>
 								<div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="checkout.html">Checkout Page</a>
 								<a class="dropdown-item" href="payment.html">Payment Page</a>
 							</div>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="contact.html">Contact Us</a>
+							<a class="nav-link" href="contact.php">Contact Us</a>
 						</li>
 					</ul>
 				</div>
@@ -802,10 +739,10 @@
 			<div class="container">
 				<ul class="w3_short">
 					<li>
-						<a href="index.html">Home</a>
+						<a href="index.php">Home</a>
 						<i>|</i>
 					</li>
-					<li>Single Product 1</li>
+					<li>Batman Dark knight 1</li>
 				</ul>
 			</div>
 		</div>
@@ -817,7 +754,7 @@
 		<div class="container py-xl-4 py-lg-2">
 			<!-- tittle heading -->
 			<h3 class="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3">
-				<span>S</span>ingle
+				<span>B</span>atman
 				<span>P</span>age</h3>
 			<!-- //tittle heading -->
 			<div class="row">
@@ -825,17 +762,17 @@
 					<div class="grid images_3_of_2">
 						<div class="flexslider">
 							<ul class="slides">
-								<li data-thumb="images/si1.jpg">
+								<li data-thumb="images/5.png">
 									<div class="thumb-image">
-										<img src="images/si1.jpg" data-imagezoom="true" class="img-fluid" alt=""> </div>
+										<img src="images/5.png" data-imagezoom="true" class="img-fluid" alt=""> </div>
 								</li>
-								<li data-thumb="images/si2.jpg">
+								<li data-thumb="images/5.1.png">
 									<div class="thumb-image">
-										<img src="images/si2.jpg" data-imagezoom="true" class="img-fluid" alt=""> </div>
+										<img src="images/5.1.png" data-imagezoom="true" class="img-fluid" alt=""> </div>
 								</li>
-								<li data-thumb="images/si3.jpg">
+								<li data-thumb="images/5.2.png">
 									<div class="thumb-image">
-										<img src="images/si3.jpg" data-imagezoom="true" class="img-fluid" alt=""> </div>
+										<img src="images/5.2.png" data-imagezoom="true" class="img-fluid" alt=""> </div>
 								</li>
 							</ul>
 							<div class="clearfix"></div>
@@ -844,10 +781,10 @@
 				</div>
 
 				<div class="col-lg-7 single-right-left simpleCart_shelfItem">
-					<h3 class="mb-3">Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)</h3>
+					<h3 class="mb-3">Batman Dark Knight</h3>
 					<p class="mb-3">
-						<span class="item_price">$200.00</span>
-						<del class="mx-2 font-weight-light">$280.00</del>
+						<span class="item_price">500000</span>
+						<del class="mx-2 font-weight-light">580000</del>
 						<label>Free delivery</label>
 					</p>
 					<div class="single-infoagile">
@@ -898,10 +835,10 @@
 									<input type="hidden" name="cmd" value="_cart" />
 									<input type="hidden" name="add" value="1" />
 									<input type="hidden" name="business" value=" " />
-									<input type="hidden" name="item_name" value="Samsung Galaxy J7 Prime" />
-									<input type="hidden" name="amount" value="200.00" />
-									<input type="hidden" name="discount_amount" value="1.00" />
-									<input type="hidden" name="currency_code" value="USD" />
+									<input type="hidden" name="item_name" value="Batman Dark Knight" />
+									<input type="hidden" name="amount" value="500000" />
+								
+									<input type="hidden" name="currency_code" value="VND" />
 									<input type="hidden" name="return" value=" " />
 									<input type="hidden" name="cancel_return" value=" " />
 									<input type="submit" name="submit" value="Add to cart" class="button" />
@@ -923,12 +860,12 @@
 					<div class="join-agile text-left p-4">
 						<div class="row">
 							<div class="col-sm-7 offer-name">
-								<h6>Smooth, Rich & Loud Audio</h6>
-								<h4 class="mt-2 mb-3">Branded Headphones</h4>
+								<h6>Lego</h6>
+								<h4 class="mt-2 mb-3">Lego toys</h4>
 								<p>Sale up to 25% off all in store</p>
 							</div>
 							<div class="col-sm-5 offerimg-w3l">
-								<img src="images/off1.png" alt="" class="img-fluid">
+								<img src="images/12.png" alt="" class="img-fluid">
 							</div>
 						</div>
 					</div>
@@ -937,12 +874,12 @@
 					<div class="join-agile text-left p-4">
 						<div class="row ">
 							<div class="col-sm-7 offer-name">
-								<h6>A Bigger Phone</h6>
-								<h4 class="mt-2 mb-3">Smart Phones 5</h4>
+								<h6>A Best toy</h6>
+								<h4 class="mt-2 mb-3">Lego toy</h4>
 								<p>Free shipping order over $100</p>
 							</div>
 							<div class="col-sm-5 offerimg-w3l">
-								<img src="images/off2.png" alt="" class="img-fluid">
+								<img src="images/12.1.png" alt="" class="img-fluid">
 							</div>
 						</div>
 					</div>
@@ -957,11 +894,9 @@
 		<div class="footer-top-first">
 			<div class="container py-md-5 py-sm-4 py-3">
 				<!-- footer first section -->
-				<h2 class="footer-top-head-w3l font-weight-bold mb-2">Electronics :</h2>
+				<h2 class="footer-top-head-w3l font-weight-bold mb-2">ATN company :</h2>
 				<p class="footer-main mb-4">
-					If you're considering a new laptop, looking for a powerful new car stereo or shopping for a new HDTV, we make it easy to
-					find exactly what you need at a price you can afford. We offer Every Day Low Prices on TVs, laptops, cell phones, tablets
-					and iPads, video games, desktop computers, cameras and camcorders, audio, video and more.</p>
+					ATN is a Vietnamese company which is selling toys to teenagers in many provinces all over Vietnam. The company has the revenue over 500.000 dollars/year.
 				<!-- //footer first section -->
 				<!-- footer second section -->
 				<div class="row w3l-grids-footer border-top border-bottom py-sm-4 py-3">
@@ -1011,22 +946,22 @@
 						<h3 class="text-white font-weight-bold mb-3">Categories</h3>
 						<ul>
 							<li class="mb-3">
-								<a href="product.html">Mobiles </a>
+								<a href="product.html">Lego </a>
 							</li>
 							<li class="mb-3">
-								<a href="product.html">Computers</a>
+								<a href="product.html">Batman</a>
 							</li>
 							<li class="mb-3">
-								<a href="product.html">TV, Audio</a>
+								<a href="product.html">Ironman</a>
 							</li>
 							<li class="mb-3">
-								<a href="product2.html">Smartphones</a>
+								<a href="product2.html">Captain</a>
 							</li>
 							<li class="mb-3">
-								<a href="product.html">Washing Machines</a>
+								<a href="product.html">Superman</a>
 							</li>
 							<li>
-								<a href="product2.html">Refrigerators</a>
+								<a href="product2.html">Hulk</a>
 							</li>
 						</ul>
 					</div>
@@ -1121,209 +1056,38 @@
 			<div class="container">
 				<!-- brands -->
 				<div class="sub-some">
-					<h5 class="font-weight-bold mb-2">Mobile & Tablets :</h5>
+					<h5 class="font-weight-bold mb-2">More Products :</h5>
 					<ul>
 						<li class="m-sm-1">
-							<a href="product.html" class="border-right pr-2">Android Phones</a>
+							<a href="product1.php" class="border-right pr-2">Produc 1</a>
 						</li>
 						<li class="m-sm-1">
-							<a href="product.html" class="border-right pr-2">Smartphones</a>
+							<a href="product2.php" class="border-right pr-2">Produc 2</a>
 						</li>
 						<li class="m-sm-1">
-							<a href="product.html" class="border-right pr-2">Feature Phones</a>
+							<a href="product3.php" class="border-right pr-2">Produc 3</a>
 						</li>
 						<li class="m-sm-1">
-							<a href="product.html" class="border-right pr-2">Unboxed Phones</a>
+							<a href="product4.php" class="border-right pr-2">Produc 4</a>
 						</li>
 						<li class="m-sm-1">
-							<a href="product.html" class="border-right pr-2">Refurbished Phones</a>
+							<a href="product5.php" class="border-right pr-2">Produc 5</a>
 						</li>
 						<li class="m-sm-1">
-							<a href="product.html" class="border-right pr-2"> Tablets</a>
+							<a href="product6.php" class="border-right pr-2">Produc 6</a>
 						</li>
 						<li class="m-sm-1">
-							<a href="product.html" class="border-right pr-2">CDMA Phones</a>
+							<a href="product7.php" class="border-right pr-2">Produc 7</a>
 						</li>
 						<li class="m-sm-1">
-							<a href="product.html" class="border-right pr-2">Value Added Services</a>
+							<a href="product8.php" class="border-right pr-2">Produc 8</a>
 						</li>
-						<li class="m-sm-1">
-							<a href="product.html" class="border-right pr-2">Sell Old</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product.html" class="border-right pr-2">Used Mobiles</a>
-						</li>
+						
 					</ul>
 				</div>
-				<div class="sub-some mt-4">
-					<h5 class="font-weight-bold mb-2">Computers :</h5>
-					<ul>
-						<li class="m-sm-1">
-							<a href="product.html" class="border-right pr-2">Laptops </a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product.html" class="border-right pr-2">Printers</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product.html" class="border-right pr-2">Routers</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product.html" class="border-right pr-2">Ink & Toner Cartridges</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product.html" class="border-right pr-2">Monitors</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product.html" class="border-right pr-2">Video Games</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product.html" class="border-right pr-2">Unboxed & Refurbished Laptops</a>
-						</li>
-						<li>
-							<a href="product.html" class="border-right pr-2">Assembled Desktops</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Data Cards</a>
-						</li>
-					</ul>
-				</div>
-				<div class="sub-some mt-4">
-					<h5 class="font-weight-bold mb-2">TV, Audio & Large Appliances :</h5>
-					<ul>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">TVs & DTH</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Home Theatre Systems</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Hidden Cameras & CCTVs</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Refrigerators</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Washing Machines</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2"> Air Conditioners</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Cameras</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Speakers</a>
-						</li>
-					</ul>
-				</div>
-				<div class="sub-some mt-4">
-					<h5 class="font-weight-bold mb-2">Mobile & Laptop Accessories :</h5>
-					<ul>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Headphones</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product.html" class="border-right pr-2">Power Banks </a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product.html" class="border-right pr-2">Backpacks</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product.html" class="border-right pr-2">Mobile Cases & Covers</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product.html" class="border-right pr-2">Pen Drives</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">External Hard Disks</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2"> Mouse</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Smart Watches & Fitness Bands</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">MicroSD Cards</a>
-						</li>
-					</ul>
-				</div>
-				<div class="sub-some mt-4">
-					<h5 class="font-weight-bold mb-2">Appliances :</h5>
-					<ul>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Trimmers</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Hair Dryers</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Emergency Lights</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Water Purifiers </a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Electric Kettles</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Hair Straighteners</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Induction Cooktops</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Sewing Machines</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2"> Geysers</a>
-						</li>
-					</ul>
-				</div>
-				<div class="sub-some mt-4">
-					<h5 class="font-weight-bold mb-2">Popular on Electro Store</h5>
-					<ul>
-						<li class="m-sm-1">
-							<a href="product.html" class="border-right pr-2">Offers & Coupons</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Couple Watches</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Gas Stoves</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2"> Air Coolers</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Air Purifiers</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Headphones</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2"> Headsets</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Pressure Cookers</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Sandwich Makers</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Air Friers</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Irons</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">LED TV</a>
-						</li>
-						<li class="m-sm-1">
-							<a href="product2.html" class="border-right pr-2">Sandwich Makers</a>
-						</li>
-					</ul>
-				</div>
+				
+				
+				
 				<!-- //brands -->
 				<!-- payment -->
 				<div class="sub-some child-momu mt-4">
