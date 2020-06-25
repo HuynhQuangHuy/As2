@@ -10,10 +10,10 @@ list-style: none;
 </style>
 </head>
 <body>
-<h1>INSERT DATA TO DATABASE</h1>
+<h1>Đăng ký thành viên</h1>
 <h2>Enter data into student table</h2>
 <ul>
-    <form name="InsertData" action="InserCustomer.php" method="POST" >
+    <form name="InsertData" action="InsertCustomer.php" method="POST" >
         <li>CustomerID:</li><li><input type="text" name="CustomerID"  required=/></li>
         <li>CustomerName:</li><li><input type="text" name="CustomerName" /></li>
         <li>Phone:</li><li><input type="text" name="PhoneNumber" /></li>
