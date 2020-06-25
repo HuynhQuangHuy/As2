@@ -13,7 +13,7 @@
       <ul id="navigation">
         <li class="selected"><a href="index.php">Home</a></li>
         <li><a href="ConnectToDB.php">Connect</a></li>
-        <li><a href="InserCustomer.php" target="_blank">Đăng kí</a></li>
+        <li><a href="InsertCustomer.php" target="_blank">Đăng kí</a></li>
         <li><a href="shop.php">Shop</a></li>
         <li><a href="contact-us.php">Contact Us</a></li>
       </ul>
