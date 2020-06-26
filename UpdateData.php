@@ -14,6 +14,7 @@ echo "Update database!";
       <label for="productname"> productname</label><input type="text" name="newproductname" placeholder="...."/><br>
       <label for="price"> price</label><input type="text" name="newprice" placeholder="...."/><br>
       <label for="quantity"> quantity</label><input type="text" name="newquantity" placeholder="...."/><br>
+      <label for="(price*quantity)"> Total</label><input type="text" name="new(price*quantity)">
     <input type="submit" values="Update">
 </form>
 
@@ -52,6 +53,7 @@ if (empty(getenv("DATABASE_URL"))){
 $sql = "UPDATE product SET productname = '$_POST[newproductname]' WHERE productid = '$_POST[productid]'";
 $sql = "UPDATE product SET price = '$_POST[newprice]' WHERE productid = '$_POST[productid]'";
 $sql = "UPDATE product SET quantity = '$_POST[newquantity]' WHERE productid = '$_POST[productid]'";
+
       $stmt = $pdo->prepare($sql);
 if($stmt->execute() == TRUE){
     echo "Record updated successfully.";
