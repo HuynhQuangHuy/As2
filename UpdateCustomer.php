@@ -49,7 +49,7 @@ if (empty(getenv("DATABASE_URL"))){
 
         // return the number of row affected
         //return $stmt->rowCount();
-$sql = "update customer set customername = '$_POST[newcustomername]',phonenumber = '$_POST[newphonenumber]',address = '$_POST[newaddress]', where customerid = '$_POST[customerid]'";
+$sql = "update customer set customername = '$_POST[newcustomername]',phonenumber = '$_POST[newphonenumber]',address = '$_POST[newaddress]', where customerid = '$_POST[newcustomerid]'";
 
       $stmt = $pdo->prepare($sql);
 if($stmt->execute() == TRUE){
