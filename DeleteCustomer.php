@@ -5,8 +5,7 @@
 <h1>Delete customer information</h1>
 
 <form name="delete" method="POST" action="DeleteData.php">
-    <label for='customerid'></label><input type="text" name="customerid" placeholder="......."/><br>                     
-    
+    <label for='customerid'>Customerid</label><input type="text" name="customerid" placeholder="......."/><br>
     <input type="submit" values="Delete">
 </form>
 <?php
@@ -32,7 +31,6 @@ if (empty(getenv("DATABASE_URL"))){
         ltrim($db["path"], "/")
    ));
 }  
-
 $sql = "DELETE FROM customer WHERE customerid = '$_POST[customerid]'";
 $stmt = $pdo->prepare($sql);
 if($stmt->execute() == TRUE){
