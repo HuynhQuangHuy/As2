@@ -4,7 +4,7 @@
 
 <h1>Delete customer information</h1>
 
-<form name="delete" method="POST" action="DeleteData.php">
+<form name="delete" method="POST" action="DeleteCustomer.php">
     <label for='customerid'>Customerid</label><input type="text" name="customerid" placeholder="......."/><br>
     <input type="submit" values="Delete">
 </form>
