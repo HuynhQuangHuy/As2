@@ -15,7 +15,7 @@
         <li><a href="ConnectToDB.php">Connect</a></li>
         <li><a href="InsertCustomer.php" target="_blank">Đăng kí</a></li>
         <li><a href="shop.php">Shop</a></li>
-        <li><a href="contact-us.php">Contact Us</a></li>
+        <li><a href="InsertDetail.php">Insert</a></li>
       </ul>
     </div>
     <!-- /#header -->

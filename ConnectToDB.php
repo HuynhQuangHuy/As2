@@ -29,7 +29,7 @@ if (empty(getenv("DATABASE_URL"))){
    ));
 }  
 
-$sql = "SELECT * FROM product";
+$sql = "SELECT producid, productname, price, soldquantity, price * soldquantity FROM detail inner join product on detail.productid = product.productid";
 $stmt = $pdo->prepare($sql);
 //Thiết lập kiểu dữ liệu trả về
 $stmt->setFetchMode(PDO::FETCH_ASSOC);
@@ -60,13 +60,11 @@ th, td {
 <table id="t01" class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>receiptid</th>
-        <th>customerid</th>
-        <th>customername</th>
         <th>ProductID</th>
         <th>ProductName</th>
         <th>Price</th>
         <th>Quantity</th>
+        <th>Total</th>
       </tr>
     </thead>
     <tbody>
