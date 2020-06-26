@@ -10,7 +10,7 @@
 </form>
 <?php
 ini_set('display_errors', 1);
-echo "Insert database!";
+echo "Delete customer information!";
 ?>
 
 <?php
