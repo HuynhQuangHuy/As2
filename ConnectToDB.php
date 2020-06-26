@@ -29,7 +29,7 @@ if (empty(getenv("DATABASE_URL"))){
    ));
 }  
 
-$sql = "SELECT productid, productname, price, quantity, price * quantity FROM product";
+$sql = "SELECT productid, productname, price, quantity, (price * quantity) FROM product";
 $stmt = $pdo->prepare($sql);
 //Thiết lập kiểu dữ liệu trả về
 $stmt->setFetchMode(PDO::FETCH_ASSOC);
@@ -79,7 +79,7 @@ th, td {
         <td><?php echo $row['productname'] ?></td>
         <td><?php echo $row['price'] ?></td>
         <td><?php echo $row['quantity'] ?></td>
-        <td><?php echo $row['price*quantity'] ?></td>
+        <td><?php echo $row['(price*quantity)'] ?></td>
       </tr>
      
       <?php
