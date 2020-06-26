@@ -18,6 +18,7 @@ list-style: none;
         <li>date:</li><li><input type="text" name="date" /></li>
         
         <li><input type="submit" value="nhập" /></li>
+        <a href="InsertProduct.php">Product</a>
 </form>
 </ul>
 
