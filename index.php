@@ -8,7 +8,7 @@
 <body>
 <div id="background">
   <div id="page">
-      <div id="header"> <span id="connect"> <a href="#" class="facebook"></a> <a href="#" class="twitter"></a> <a href="#" class="vimeo"></a> </span> <span id="infos"> <a href="Register.php">Register</a>|<a href="Login.php">Login</a> </span> <a href="index.html" id="logo"></a>
+      <div id="header"> <span id="connect"> <a href="#" class="facebook"></a> <a href="#" class="twitter"></a> <a href="#" class="vimeo"></a> </span> <span id="infos"> <a href="InsertCustomer.php">Register</a>|<a href="Login.php">Login</a> </span> <a href="index.html" id="logo"></a>
       <!-- /#logo -->
       <ul id="navigation">
         <li class="selected"><a href="index.php">Home</a></li>
