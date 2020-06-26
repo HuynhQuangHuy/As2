@@ -10,7 +10,7 @@ echo "Update database!";
 ?>
 
 <form name="update" action="UpdateData.php" method="POST"
-      <label for="productid"> productid</label><input type="text" name="newproductid" placeholder="...."/>
+      <label for="productid"> productid</label><input type="text" name="productid" placeholder="...."/>
       <label for="productname"> productname</label><input type="text" name="newproductname" placeholder="...."/><br>
       <label for="price"> price</label><input type="text" name="newprice" placeholder="...."/><br>
       <label for="quantity"> quantity</label><input type="text" name="newquantity" placeholder="...."/><br>
