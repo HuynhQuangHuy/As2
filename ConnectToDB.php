@@ -79,7 +79,7 @@ th, td {
         <td><?php echo $row['productname'] ?></td>
         <td><?php echo $row['price'] ?></td>
         <td><?php echo $row['quantity'] ?></td>
-        <td><?php echo $row['(price*quantity)'] ?></td>
+        
       </tr>
      
       <?php
