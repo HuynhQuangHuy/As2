@@ -28,10 +28,10 @@ if (empty(getenv("DATABASE_URL"))){
    ));
 }  
 
-$sql = "DELETE FROM product";
+$sql = "DELETE FROM product WHERE productid = '$_POST[productid]'";
 $stmt = $pdo->prepare($sql);
 if($stmt->execute() == TRUE){
-    echo "Huỷ đơn thành công";
+    echo "Record deleted successfully.";
 } else {
     echo "Error deleting record: ";
 }
