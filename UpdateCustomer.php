@@ -14,7 +14,7 @@ echo "Update database!";
     <label for="customername">newcustomername</label><input type="text" name="newcustomername" placeholder="....."/><br>
     <label for="phonenumber">newphonenumber</label><input type="text" name="newphonenumber" placeholder="....."/><br>
     <label for="address">newaddress</label><input type="text" name="address" placeholder="....."/><br>
-    <input type="submit" value="UPDATE">
+    <input type="submit" value="update">
 </form>
 
 <?php
