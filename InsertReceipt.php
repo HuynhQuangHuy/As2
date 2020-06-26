@@ -57,7 +57,7 @@ $sql = "INSERT INTO receipt(receiptid, date, customer)"
 $stmt = $pdo->prepare($sql);
 //$stmt->execute();
  if (is_null($_POST[receiptid])) {
-   echo "Customer ID Không được thiếu.";
+   echo "ReceiptID Không được thiếu.";
  }
  else
  {
