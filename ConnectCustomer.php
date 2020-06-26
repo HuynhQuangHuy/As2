@@ -29,7 +29,7 @@ if (empty(getenv("DATABASE_URL"))){
    ));
 }  
 
-$sql = "SELECT productid, productname, price, quantity, (price*quantity) As total FROM product";
+$sql = "SELECT * FROM customer";
 $stmt = $pdo->prepare($sql);
 //Thiết lập kiểu dữ liệu trả về
 $stmt->setFetchMode(PDO::FETCH_ASSOC);
@@ -63,9 +63,9 @@ th, td {
       <tr>
         <th>CustomerID</th>
         <th>Customername</th>
-        <th>phone</th>
-        <th>Quantity</th>
-        <th>Total</th>
+        <th>Phonenumber</th>
+        <th>Address</th>
+        
       </tr>
     </thead>
     <tbody>
@@ -76,11 +76,11 @@ th, td {
       ?>
    
       <tr>
-        <td scope="row"><?php echo $row['productid'] ?></td>
-        <td><?php echo $row['productname'] ?></td>
-        <td><?php echo $row['price'] ?></td>
-        <td><?php echo $row['quantity'] ?></td>
-        <td><?php echo $row['total'] ?></td>
+        <td scope="row"><?php echo $row['customerid'] ?></td>
+        <td><?php echo $row['customername'] ?></td>
+        <td><?php echo $row['phonenumber'] ?></td>
+        <td><?php echo $row['address'] ?></td>
+        
       </tr>
      
       <?php
