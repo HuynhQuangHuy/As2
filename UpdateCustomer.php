@@ -10,7 +10,7 @@ echo "Update database!";
 ?>
 
 <form name="update" action="UpdateCustomer.php" method="POST">
-    <label for="customerid">customerid </label><input type="text" name="newcustomerid" placeholder="....."/><br>
+    <label for="customerid">customerid </label><input type="text" name="customerid" placeholder="....."/><br>
     <label for="customername">newcustomername</label><input type="text" name="newcustomername" placeholder="....."/><br>
     <label for="phonenumber">newphonenumber</label><input type="text" name="newphonenumber" placeholder="....."/><br>
     <label for="address">newaddress</label><input type="text" name="newaddress" placeholder="....."/><br>
@@ -49,7 +49,7 @@ if (empty(getenv("DATABASE_URL"))){
 
         // return the number of row affected
         //return $stmt->rowCount();
-$sql = "update customer set customername = '$_POST[newcustomername]',phonenumber = '$_POST[newphonenumber]',address = '$_POST[newaddress]', where customerid = '$_POST[newcustomerid]'";
+$sql = "update customer set customername = '$_POST[newcustomername]',phonenumber = '$_POST[newphonenumber]',address = '$_POST[newaddress]', where customerid = '$_POST[customerid]'";
 
       $stmt = $pdo->prepare($sql);
 if($stmt->execute() == TRUE){
