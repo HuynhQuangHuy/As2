@@ -60,6 +60,9 @@ th, td {
 <table id="t01" class="table table-bordered table-condensed">
     <thead>
       <tr>
+        <th>receiptid</th>
+        <th>customerid</th>
+        <th>customername</th>
         <th>ProductID</th>
         <th>ProductName</th>
         <th>Price</th>
