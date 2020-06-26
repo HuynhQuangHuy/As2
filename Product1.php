@@ -450,14 +450,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<li class="mb-1">
 								ProductName: Batman
 							</li>
+							
 							<li class="mb-1">
-								13MP Rear Camera | 8MP Front Camera
+								Price: 230000VND
 							</li>
 							<li class="mb-1">
-								3300 mAh Battery
-							</li>
-							<li class="mb-1">
-								Exynos 7870 Octa Core 1.6GHz Processor
+								Quantity: 3 left
 							</li>
 						</ul>
 						<p class="my-sm-4 my-3">
@@ -468,16 +466,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 							<form action="#" method="post">
 								<fieldset>
-									<input type="hidden" name="cmd" value="_cart" />
-									<input type="hidden" name="add" value="1" />
-									<input type="hidden" name="business" value=" " />
-									<input type="hidden" name="item_name" value="Batman Dark Knight" />
-									<input type="hidden" name="amount" value="500000" />
-								
-									<input type="hidden" name="currency_code" value="VND" />
-									<input type="hidden" name="return" value=" " />
-									<input type="hidden" name="cancel_return" value=" " />
-									<input type="submit" name="submit" value="Add to cart" class="button" />
+									<li><a href="InsertDetail.php">Oder</a></li>
 								</fieldset>
 							</form>
 						</div>
