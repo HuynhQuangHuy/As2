@@ -445,10 +445,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<label>1 Year</label>Manufacturer Warranty</p>
 						<ul>
 							<li class="mb-1">
-								3 GB RAM | 16 GB ROM | Expandable Upto 256 GB
+								ProductID: pro01
 							</li>
 							<li class="mb-1">
-								5.5 inch Full HD Display
+								ProductName: Batman
 							</li>
 							<li class="mb-1">
 								13MP Rear Camera | 8MP Front Camera
