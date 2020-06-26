@@ -49,9 +49,9 @@ if (empty(getenv("DATABASE_URL"))){
 
         // return the number of row affected
         //return $stmt->rowCount();
-$sql = "UPDATE student SET productname = '$_POST[newproductname]' WHERE productid = '$_POST[productid]'";
-$sql = "UPDATE student SET price = '$_POST[newprice]' WHERE productid = '$_POST[productid]'";
-$sql = "UPDATE student SET quantity = '$_POST[newquantity]' WHERE productid = '$_POST[productid]'";
+$sql = "UPDATE product SET productname = '$_POST[newproductname]' WHERE productid = '$_POST[productid]'";
+$sql = "UPDATE product SET price = '$_POST[newprice]' WHERE productid = '$_POST[productid]'";
+$sql = "UPDATE product SET quantity = '$_POST[newquantity]' WHERE productid = '$_POST[productid]'";
       $stmt = $pdo->prepare($sql);
 if($stmt->execute() == TRUE){
     echo "Record updated successfully.";
