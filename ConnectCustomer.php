@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>Customer information</title>
+<link rel="stylesheet" href="123.css" type="text/css">
 </head>
 <body>
 
@@ -85,7 +86,8 @@ th, td {
         <td><?php echo $row['address'] ?></td>
         
       </tr>
-     
+     <a href="#">Linky Boo1</a>
+     <a href="#">Linky Boo2</a>
       <?php
         }
       ?>
