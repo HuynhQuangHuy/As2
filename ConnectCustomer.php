@@ -105,7 +105,7 @@ th, td {
     </tbody>
   </table>
 </div>
-<a href="default.asp" target="_blank">This is a link</a>
+<a href="DeleteCustomer.php" target="_blank">Delete customer information</a>
 <a href="default.asp" target="_blank">This is a link2</a>
 </body>
 </html>
