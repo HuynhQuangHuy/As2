@@ -2,11 +2,11 @@
 <html>
 <body>
 
-<h1>DATABASE CONNECTION</h1>
+<h1>Customer information</h1>
 
 <?php
 ini_set('display_errors', 1);
-echo "Hello Cloud computing class 0818!";
+echo "Hello manager!";
 ?>
 
 <?php
@@ -35,7 +35,7 @@ $stmt = $pdo->prepare($sql);
 $stmt->setFetchMode(PDO::FETCH_ASSOC);
 $stmt->execute();
 $resultSet = $stmt->fetchAll();
-echo '<p>Students information:</p>';
+echo '<p>Customer information:</p>';
 
 ?>
 <style>
