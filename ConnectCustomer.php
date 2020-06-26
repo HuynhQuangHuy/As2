@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+<head>
+<title>Customer information</title>
+</head>
 <body>
 
 <h1>Customer information</h1>
