@@ -9,6 +9,14 @@ ini_set('display_errors', 1);
 echo "Update database!";
 ?>
 
+<form name="update" action="UpdateData.php" method="POST"
+      <label for="productid"> productid</label><input type="text" name="newproductid" placeholder="...."/>
+      <label for="productname"> productname</label><input type="text" name="newproductname" placeholder="...."/><br>
+      <label for="price"> price</label><input type="text" name="newprice" placeholder="...."/><br>
+      <label for="quantity"> quantity</label><input type="text" name="newquantity" placeholder="...."/><br>
+    
+</form>
+
 <?php
 
 
@@ -41,7 +49,9 @@ if (empty(getenv("DATABASE_URL"))){
 
         // return the number of row affected
         //return $stmt->rowCount();
-$sql = "UPDATE student SET fname = 'Lee Chan Do' WHERE stuid = 'SV02'";
+$sql = "UPDATE student SET productname = '$_POST[newproductname]' WHERE productid = '$_POST[productid]'";
+$sql = "UPDATE student SET price = '$_POST[newprice]' WHERE productid = '$_POST[productid]'";
+$sql = "UPDATE student SET quantity = '$_POST[newquantity]' WHERE productid = '$_POST[productid]'";
       $stmt = $pdo->prepare($sql);
 if($stmt->execute() == TRUE){
     echo "Record updated successfully.";
@@ -50,5 +60,5 @@ if($stmt->execute() == TRUE){
 }
     
 ?>
-</body>
+</body> 
 </html>
