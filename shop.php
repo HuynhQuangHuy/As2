@@ -22,22 +22,22 @@
     <div id="contents">
       <div id="shop">
         <ul class="items">
-          <li> <span><img src="images/5.png" alt=""></span> <span class="price">$18.00</span> Sellcouth One<br>
+          <li> <span><img src="images/5.png" alt=""></span> <span class="price">$18.00</span>ATN<br>
               <a href="Product1.php" class="buy">Buy</a> </li>
           <li> <span><img src="images/6.png" alt=""></span> <span class="price">$18.00</span> Sellcouth One<br>
-            <a href="#" class="buy">Buy</a> </li>
-          <li> <span><img src="images/7.png" alt=""></span> <span class="price">$18.00</span> Sellcouth One<br>
-            <a href="#" class="buy">Buy</a> </li>
-          <li class="last"> <span><img src="images/8.png" alt=""></span> <span class="price">$18.00</span> Sellcouth One<br>
-            <a href="#" class="buy">Buy</a> </li>
-          <li> <span><img src="images/9.png" alt=""></span> <span class="price">$18.00</span> Sellcouth One<br>
-            <a href="#" class="buy">Buy</a> </li>
-          <li> <span><img src="images/10.png" alt=""></span> <span class="price">$18.00</span> Sellcouth One<br>
-            <a href="#" class="buy">Buy</a> </li>
-          <li> <span><img src="images/11.png" alt=""></span> <span class="price">$18.00</span> Sellcouth One<br>
-            <a href="#" class="buy">Buy</a> </li>
-          <li class="last"> <span><img src="images/12.png" alt=""></span> <span class="price">$18.00</span> Sellcouth One<br>
-            <a href="#" class="buy">Buy</a> </li>
+              <a href="product2.php" class="buy">Buy</a> </li>
+          <li> <span><img src="images/7.png" alt=""></span> <span class="price">$18.00</span> ATN<br>
+              <a href="product3.php" class="buy">Buy</a> </li>
+          <li class="last"> <span><img src="images/8.png" alt=""></span> <span class="price">$18.00</span> ATN<br>
+              <a href="product4.php" class="buy">Buy</a> </li>
+          <li> <span><img src="images/9.png" alt=""></span> <span class="price">$18.00</span> ATN<br>
+              <a href="product5.php" class="buy">Buy</a> </li>
+          <li> <span><img src="images/10.png" alt=""></span> <span class="price">$18.00</span> ATN<br>
+              <a href="product6.php" class="buy">Buy</a> </li>
+          <li> <span><img src="images/11.png" alt=""></span> <span class="price">$18.00</span> ATN<br>
+              <a href="product 7.php" class="buy">Buy</a> </li>
+          <li class="last"> <span><img src="images/12.png" alt=""></span> <span class="price">$18.00</span> ATN<br>
+              <a href="product8.php" class="buy">Buy</a> </li>
         </ul>
       </div>
     </div>
