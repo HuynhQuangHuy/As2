@@ -57,6 +57,7 @@ th, td {
 }
 </style>
 <a href="DeleteData.php">Huỷ đơn</a>
+<a href="UpdateData.php">Sửa đơn</a>
 <div id="container">
 <table id="t01" class="table table-bordered table-condensed">
     <thead>
