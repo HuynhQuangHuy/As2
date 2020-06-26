@@ -70,8 +70,7 @@ th, td {
   color: black;
 }
 </style>
-<a href="DeleteData.php">Huỷ đơn</a>
-<a href="UpdateData.php">Sửa đơn</a>
+<a href="DeleteData.php">Cancel order</a>
 <div id="container">
 <table id="t01" class="table table-bordered table-condensed">
     <thead>
