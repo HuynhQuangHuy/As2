@@ -11,11 +11,10 @@
       <div id="header"> <span id="connect"> <a href="#" class="facebook"></a> <a href="#" class="twitter"></a> <a href="#" class="vimeo"></a> </span> <span id="infos"> <a href="Register.php">Register</a>|<a href="Login.php">Login</a> </span> <a href="index.php" id="logo"></a>
       <!-- /#logo -->
       <ul id="navigation">
-        <li><a href="index.php">Home</a></li>
-        <li><a href="about.php">About</a></li>
-        <li><a href="blog.php">Blog</a></li>
-        <li class="selected"><a href="shop.php">Shop</a></li>
-        <li><a href="contact-us.php">Contact Us</a></li>
+         <li class="selected"><a href="index.php">Home</a></li>
+        <li><a href="InsertCustomer.php" target="_blank">Register</a></li>
+        <li><a href="ConnectCustomer.php">Customer information</a></li>
+        <li><a href="shop.php">Shop</a></li>
       </ul>
     </div>
     <!-- /#header -->
