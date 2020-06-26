@@ -10,8 +10,8 @@ list-style: none;
 </style>
 </head>
 <body>
-<h1>Đăng ký thành viên</h1>
-<h2>Enter data into student table</h2>
+<h1>Product</h1>
+<h2>Enter data into product table</h2>
 <ul>
     <form name="InsertData" action="InsertProduct.php" method="POST" >
         <li>productid:</li><li><input type="text" name="productid"  required=/></li>
