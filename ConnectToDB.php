@@ -75,10 +75,10 @@ th, td {
       ?>
    
       <tr>
-        <td scope="row"><?php echo $row['ProductID'] ?></td>
-        <td><?php echo $row['ProductName'] ?></td>
-        <td><?php echo $row['Price'] ?></td>
-        <td><?php echo $row['Quantity'] ?></td>
+        <td scope="row"><?php echo $row['productid'] ?></td>
+        <td><?php echo $row['productname'] ?></td>
+        <td><?php echo $row['price'] ?></td>
+        <td><?php echo $row['quantity'] ?></td>
         
       </tr>
      
