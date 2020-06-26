@@ -16,7 +16,7 @@ list-style: none;
     <form name="InsertData" action="InsertReceipt.php" method="POST" >
         <li>receiptid:</li><li><input type="text" name="receiptid"  required=/></li>
         <li>date:</li><li><input type="text" name="date" /></li>
-        <li>customer:</li><li><input type="text" name="customer" /></li>
+        <li>customerid:</li><li><input type="text" name="customerid" /></li>
         <li><input type="submit" value="nhập" /></li>
 </form>
 </ul>
@@ -52,8 +52,8 @@ if($pdo === false){
 //$stmt->bindParam(':class', 'GCD018');
 //$stmt->execute();
 //$sql = "INSERT INTO student(stuid, fname, email, classname) VALUES('SV02', 'Hong Thanh','thanhh@fpt.edu.vn','GCD018')";
-$sql = "INSERT INTO receipt(receiptid, date, customer)"
-        . " VALUES('$_POST[receiptid]','$_POST[date]','$_POST[customer]')";
+$sql = "INSERT INTO receipt(receiptid, date, customerid)"
+        . " VALUES('$_POST[receiptid]','$_POST[date]','$_POST[customerid]')";
 $stmt = $pdo->prepare($sql);
 //$stmt->execute();
  if (is_null($_POST[receiptid])) {
