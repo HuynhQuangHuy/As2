@@ -378,7 +378,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<a href="index.php">Home</a>
 						<i>|</i>
 					</li>
-					<li>Robin 1</li>
+					<li>Black Panther</li>
 				</ul>
 			</div>
 		</div>
@@ -390,7 +390,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container py-xl-4 py-lg-2">
 			<!-- tittle heading -->
 			<h3 class="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3">
-				<span>R</span>in
+				<span>P</span>anther
 				<span>P</span>age</h3>
 			<!-- //tittle heading -->
 			<div class="row">
@@ -398,17 +398,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="grid images_3_of_2">
 						<div class="flexslider">
 							<ul class="slides">
-								<li data-thumb="images/6.png">
+								<li data-thumb="images/9.png">
 									<div class="thumb-image">
-										<img src="images/6.png" data-imagezoom="true" class="img-fluid" alt=""> </div>
+										<img src="images/9.png" data-imagezoom="true" class="img-fluid" alt=""> </div>
 								</li>
-								<li data-thumb="images/6.1.png">
+								<li data-thumb="images/9.1.png">
 									<div class="thumb-image">
-										<img src="images/6.1.png" data-imagezoom="true" class="img-fluid" alt=""> </div>
+										<img src="images/9.1.png" data-imagezoom="true" class="img-fluid" alt=""> </div>
 								</li>
-								<li data-thumb="images/6.2.png">
+								<li data-thumb="images/9.2.png">
 									<div class="thumb-image">
-										<img src="images/6.2.png" data-imagezoom="true" class="img-fluid" alt=""> </div>
+										<img src="images/9.2.png" data-imagezoom="true" class="img-fluid" alt=""> </div>
 								</li>
 							</ul>
 							<div class="clearfix"></div>
@@ -417,7 +417,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 
 				<div class="col-lg-7 single-right-left simpleCart_shelfItem">
-					<h3 class="mb-3">Batman Dark Knight</h3>
+					<h3 class="mb-3">Black Panther</h3>
 					<p class="mb-3">
 						<span class="item_price">500000</span>
 						<del class="mx-2 font-weight-light">580000</del>
@@ -445,17 +445,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<label>1 Year</label>Manufacturer Warranty</p>
 						<ul>
 							<li class="mb-1">
-								ProductID: pro02
+								ProductID: pro05
 							</li>
 							<li class="mb-1">
-								ProductName: Robin
+								ProductName: Black Panther
 							</li>
 							
 							<li class="mb-1">
-								Price: 300000VND
+								Price: 500000VND
 							</li>
 							<li class="mb-1">
-								Quantity: 4 left
+								Quantity: 7 left
 							</li>
 						</ul>
 						<p class="my-sm-4 my-3">
