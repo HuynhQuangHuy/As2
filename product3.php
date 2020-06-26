@@ -378,7 +378,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<a href="index.php">Home</a>
 						<i>|</i>
 					</li>
-					<li>Robin 1</li>
+					<li>Batman Who Laught 1</li>
 				</ul>
 			</div>
 		</div>
@@ -390,7 +390,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container py-xl-4 py-lg-2">
 			<!-- tittle heading -->
 			<h3 class="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3">
-				<span>R</span>in
+				<span>B</span>atman
 				<span>P</span>age</h3>
 			<!-- //tittle heading -->
 			<div class="row">
@@ -398,17 +398,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="grid images_3_of_2">
 						<div class="flexslider">
 							<ul class="slides">
-								<li data-thumb="images/6.png">
+								<li data-thumb="images/7.png">
 									<div class="thumb-image">
-										<img src="images/6.png" data-imagezoom="true" class="img-fluid" alt=""> </div>
+										<img src="images/7.png" data-imagezoom="true" class="img-fluid" alt=""> </div>
 								</li>
-								<li data-thumb="images/6.1.png">
+								<li data-thumb="images/7.1.png">
 									<div class="thumb-image">
-										<img src="images/6.1.png" data-imagezoom="true" class="img-fluid" alt=""> </div>
+										<img src="images/7.1.png" data-imagezoom="true" class="img-fluid" alt=""> </div>
 								</li>
-								<li data-thumb="images/6.2.png">
+								<li data-thumb="images/7.2.png">
 									<div class="thumb-image">
-										<img src="images/6.2.png" data-imagezoom="true" class="img-fluid" alt=""> </div>
+										<img src="images/7.2.png" data-imagezoom="true" class="img-fluid" alt=""> </div>
 								</li>
 							</ul>
 							<div class="clearfix"></div>
@@ -445,17 +445,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<label>1 Year</label>Manufacturer Warranty</p>
 						<ul>
 							<li class="mb-1">
-								ProductID: pro02
+								ProductID: pro03
 							</li>
 							<li class="mb-1">
-								ProductName: Robin
+								ProductName: Batman Who Laught
 							</li>
 							
 							<li class="mb-1">
-								Price: 300000VND
+								Price: 430000VND
 							</li>
 							<li class="mb-1">
-								Quantity: 4 left
+								Quantity: 5 left
 							</li>
 						</ul>
 						<p class="my-sm-4 my-3">
@@ -913,4 +913,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 </body>
 
-</html>
+</html><?php
+
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
