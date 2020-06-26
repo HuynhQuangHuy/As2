@@ -3,6 +3,20 @@
 <head>
 <title>Customer information</title>
 </head>
+<style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+</style>
 <body>
 
 <h1>Customer information</h1>
@@ -85,13 +99,13 @@ th, td {
         <td><?php echo $row['address'] ?></td>
         
       </tr>
-     <a href="#">Linky Boo1</a>
-     <a href="#">Linky Boo2</a>
       <?php
         }
       ?>
     </tbody>
   </table>
 </div>
+<a href="default.asp" target="_blank">This is a link</a>
+<a href="default.asp" target="_blank">This is a link2</a>
 </body>
 </html>
