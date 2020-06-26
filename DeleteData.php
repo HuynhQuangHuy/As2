@@ -4,6 +4,10 @@
 
 <h1>INSERT DATA TO DATABASE</h1>
 
+<form name="delete" method="POST" action="DeleteData.php">
+    <label for='productid'> Productid</label><input type="text" name="productid" placeholder="......."/><br>
+    <input type="submit" values="Delete">
+</form>
 <?php
 ini_set('display_errors', 1);
 echo "Insert database!";
