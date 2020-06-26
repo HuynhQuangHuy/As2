@@ -445,14 +445,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<label>1 Year</label>Manufacturer Warranty</p>
 						<ul>
 							<li class="mb-1">
-								ProductID: pro02
+								ProductID: pro04
 							</li>
 							<li class="mb-1">
-								ProductName: Robin
+								ProductName: Captain 
 							</li>
 							
 							<li class="mb-1">
-								Price: 300000VND
+								Price: 400000VND
 							</li>
 							<li class="mb-1">
 								Quantity: 4 left
