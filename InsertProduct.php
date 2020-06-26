@@ -19,6 +19,7 @@ list-style: none;
         <li>price:</li><li><input type="text" name="price" /></li>
         <li>quantity:</li><li><input type="text" name="quantity" /></li>
         <li><input type="submit" value="Đăng kí" /></li>
+        <a href="ConnectToDB.php">Xem hoá đơn</a>
 </form>
 </ul>
 

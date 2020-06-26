@@ -466,7 +466,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 							<form action="#" method="post">
 								<fieldset>
-                                                                    <li><a href="InsertReceipt.php">Oder</a></li>
+                                                                    <li><a href="InsertProduct.php">Oder</a></li>
 								</fieldset>
 							</form>
 						</div>
