@@ -58,14 +58,14 @@ $sql = "INSERT INTO customer(customerid, customername, phonenumber, address)"
 $stmt = $pdo->prepare($sql);
 //$stmt->execute();
  if (is_null($_POST[customerid])) {
-   echo "Customer ID Không được thiếu.";
+   echo "customer not null.";
  }
  else
  {
     if($stmt->execute() == TRUE){
-        echo "Đăng kí thành công. Vui lòng dùng customerid khi thanh toán.";
+        echo "Registration success.";
     } else {
-        echo "Error inserting record: ";
+        echo "Registration failed ";
     }
  }
 ?>

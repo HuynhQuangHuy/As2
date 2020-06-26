@@ -59,12 +59,12 @@ $sql = "INSERT INTO product(productid, productname, price, quantity)"
 $stmt = $pdo->prepare($sql);
 //$stmt->execute();
  if (is_null($_POST[productid])) {
-   echo "productid Không được thiếu.";
+   echo "productid not null.";
  }
  else
  {
     if($stmt->execute() == TRUE){
-        echo "Đăng kí thành công. Vui lòng dùng customerid khi thanh toán.";
+        echo "Oder success";
     } else {
         echo "Error inserting record: ";
     }
