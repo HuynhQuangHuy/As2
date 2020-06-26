@@ -14,7 +14,7 @@ echo "Update database!";
       <label for="productname"> productname</label><input type="text" name="newproductname" placeholder="...."/><br>
       <label for="price"> price</label><input type="text" name="newprice" placeholder="...."/><br>
       <label for="quantity"> quantity</label><input type="text" name="newquantity" placeholder="...."/><br>
-    
+    <input type="submit" values="Update">
 </form>
 
 <?php
