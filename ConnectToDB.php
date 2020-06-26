@@ -16,11 +16,11 @@ a:hover, a:active {
 </style>
 <body>
 
-<h1>DATABASE CONNECTION</h1>
+<h1>Purchase invoice</h1>
 
 <?php
 ini_set('display_errors', 1);
-echo "Hello Cloud computing class 0818!";
+echo "Hello customer!";
 ?>
 
 <?php
@@ -49,7 +49,7 @@ $stmt = $pdo->prepare($sql);
 $stmt->setFetchMode(PDO::FETCH_ASSOC);
 $stmt->execute();
 $resultSet = $stmt->fetchAll();
-echo '<p>Students information:</p>';
+echo '<p>Invoice information:</p>';
 
 ?>
 <style>
@@ -70,7 +70,7 @@ th, td {
   color: black;
 }
 </style>
-<a href="DeleteData.php">Cancel order</a>
+
 <div id="container">
 <table id="t01" class="table table-bordered table-condensed">
     <thead>
@@ -82,6 +82,7 @@ th, td {
         <th>Total</th>
       </tr>
     </thead>
+    <a href="DeleteData.php">Cancel order</a>
     <tbody>
       <?php
       // tạo vòng lặp 
