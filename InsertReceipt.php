@@ -18,10 +18,15 @@ list-style: none;
         <li>date:</li><li><input type="text" name="date" /></li>
         
         <li><input type="submit" value="nhập" /></li>
-        <a href="InsertProduct.php">Product</a>
+        <a href="InsertProduct.php" class="w3-button w3-black">Product</a>
 </form>
 </ul>
-
+<div class="w3-container">
+  <h2>Buttons (w3-btn)</h2>
+  <input type="button" class="w3-btn w3-black" value="Input Button">
+  <button class="w3-btn w3-black">Button Button</button>
+  <a href="#" class="w3-btn w3-black">Link Button</a>
+</div>
 <?php
 
 if (empty(getenv("DATABASE_URL"))){
