@@ -62,7 +62,7 @@ $stmt = $pdo->prepare($sql);
  else
  {
     if($stmt->execute() == TRUE){
-        echo "Đăng kí thành công. Vui lòng dùng customerid khi thanh toán.";
+        echo "Nhập hoá đơn thành công";
     } else {
         echo "Error inserting record: ";
     }
