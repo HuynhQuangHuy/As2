@@ -57,7 +57,7 @@ $sql = "INSERT INTO customer(customerid, customername, phonenumber, address)"
         . " VALUES('$_POST[customerid]','$_POST[customername]','$_POST[phonenumber]','$_POST[address]')";
 $stmt = $pdo->prepare($sql);
 //$stmt->execute();
- if (is_null($_POST[CustomerID])) {
+ if (is_null($_POST[customerid])) {
    echo "Customer ID Không được thiếu.";
  }
  else
