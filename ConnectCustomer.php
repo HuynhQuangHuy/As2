@@ -2,7 +2,6 @@
 <html>
 <head>
 <title>Customer information</title>
-<link rel="stylesheet" href="123.css" type="text/css">
 </head>
 <body>
 
