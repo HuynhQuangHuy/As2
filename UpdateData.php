@@ -14,7 +14,7 @@ echo "Update database!";
       <label for="productname"> productname</label><input type="text" name="newproductname" placeholder="...."/><br>
       <label for="price"> price</label><input type="text" name="newprice" placeholder="...."/><br>
       <label for="quantity"> quantity</label><input type="text" name="newquantity" placeholder="...."/><br>
-      <label for="(price*quantity)"> Total</label><input type="text" name="new(price*quantity)">
+
     <input type="submit" values="Update">
 </form>
 
