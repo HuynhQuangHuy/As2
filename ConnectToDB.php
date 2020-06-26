@@ -56,6 +56,7 @@ th, td {
   color: black;
 }
 </style>
+<a href="DeleteData.php">Huỷ đơn</a>
 <div id="container">
 <table id="t01" class="table table-bordered table-condensed">
     <thead>
