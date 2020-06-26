@@ -106,6 +106,6 @@ th, td {
   </table>
 </div>
 <a href="DeleteCustomer.php" target="_blank">Delete customer information</a>
-<a href="default.asp" target="_blank">This is a link2</a>
+<a href="UpdateCustomer.php" target="_blank">Update customer information</a>
 </body>
 </html>
